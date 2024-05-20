@@ -1,7 +1,3 @@
-# 避難所管理システム
-
-It's a web application developed using Next.js (version 13.4.3) to manage evacuation centers, featuring various roles such as Admin, Staff, User, and HQ-Staff, along with other associated responsibilities.
-
 # ReactJS
 
 React is an open-source JavaScript library used for building user interfaces and UI components. You can find its documentation at https://reactjs.org/.
