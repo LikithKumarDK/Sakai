@@ -10,57 +10,12 @@ React is an open-source JavaScript library used for building user interfaces and
 
 Next.js is a popular open-source framework/extension built on top of React. It is used for building server-rendered React applications and static websites. For more information, you can refer to its documentation at https://nextjs.org/docs.
 
-# Project Structure
-    .
-    ├── public                      # Public contains fonts, layout -> images, locales, themes
-    ├── src                         # Project's source code  
-    │ ├── components                # Components used in the project    
-    │ ├── helper                    # Helper functions    
-    │ ├── layout                    # Project layout with configuration    
-    │ ├── middleware                # Contains redux saga config    
-    │ └── pages                     # Contains all pages/file system routing information used in project   
-    │  ├── _app.js                  # Entry point of the application   
-    │  ├── document.js              # Document structure of the application / Contains -> Stylesheets, Fonts, Scripts, SEO, SSR, GSM   
-    │  ├── _404.js                  # Not found  
-    │  ├── _index.js                # Default route page of the application   
-    │  ├── admin                    # Contains all admin related pages   
-    │  ├── staff                    # Contains all staff related pages   
-    │  └── user                     # Contains all user related pages 
-    │ └── redux                     # Redux information & configuration  
-    │  ├── auth                     # Contains authentication related redux logics
-    │  ├── features                 # Contains features related redux logics  
-    │  ├── hooks.js                 # Redux custom hooks
-    │  ├── provider.js              # Redux provider  
-    │  ├── redux-persist-config.js  # Redux persist
-    │  ├── rootReducer.js           # Redux root reducer
-    │  └── store.js                 # Redux store
-    │ └── services                  # Global services  
-    │  └── authn_authz.services.js  # Contains authentication & authorization related global services 
-    │ └── styles                    # Project styles
-    │  ├── components               # Components styles  
-    │  ├── layout                   # Layout styles
-    │  └── pages                    # Pages styles
-    │ └── utils                     # Project utils/utilities information's
-    │  ├── js                       # Global/Custom js files  
-    │  ├── api.js                   # Global api/axios configuration
-    │  └── constant.js              # Contains static/dummy content
-    │ └── validation                # Project global validation
-    │  └── validationPattern.js     # Contains validation patterns
-    ├── .env.local                  # Project environment variables    
-    ├── .env.local.example          # Example environment variables file   
-    ├── .eslintrc.json              # Eslint configuration
-    ├── .gitignore                  # Specifies intentionally untracked files to ignore    
-    ├── next.config.js              # NextJS configuration file    
-    ├── package.json                # Project dependenices & details file    
-    ├── postcss.config.js           # PostCSS is a tool for transforming styles with JSplugins    
-    └── README.md
-
 ## Please follow the below steps
 
 1. Clone the repository from git using the below command
 
 ```bash
-git clone https://github.com/Nichi-In-Dev-Dept-1/hitachi_fe.git
+git clone -b page-router https://github.com/LikithKumarDK/Sakai.git
 ```
 
 2. Copy .env.local.example -> .env.local & Update environments variables
@@ -103,11 +58,3 @@ npx serve@latest out
 ```
 
 4. Deploy the "out" folder as static export build in the server.
-
-## Cypress Test
-
-1. To Run the cypress
-
-```bash
-npm run cypress
-```
