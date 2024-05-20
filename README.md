@@ -15,7 +15,7 @@ Next.js is a popular open-source framework/extension built on top of React. It i
 1. Clone the repository from git using the below command
 
 ```bash
-git clone -b page-router https://github.com/LikithKumarDK/Sakai.git
+git clone -b page-router https://github.com/LikithKumarDK/Sakai-NextJS.git
 ```
 
 2. Copy .env.local.example -> .env.local & Update environments variables
