@@ -13,10 +13,6 @@
     "test:cypress": "cypress run --record --key $CYPRESS_RECORD_KEY",
     "cypress": "cypress open"
   },
-  "engines": {
-    "node": ">=18.16.1",
-    "npm": ">=9.8.0"
-  },
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
     "@reduxjs/toolkit": "^1.9.5",
@@ -57,5 +53,9 @@
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "sass": "^1.58.3"
+  },
+  "engines": {
+    "node": ">=18.16.1",
+    "npm": ">=9.8.0"
   }
 }
